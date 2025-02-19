@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #f8c291, #6a89cc);
+    color: #222; /* Darker text for better readability */
+}
+
+header {
+    background: linear-gradient(90deg, #0073e6, #005bb5);
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #222; /* Darker text for clarity */
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #ff9f43, #ff6b6b);
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ff6b6b, #ee5253);
+}

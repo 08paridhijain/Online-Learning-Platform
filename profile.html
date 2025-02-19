@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <h1>Your Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Welcome, <span id="username">Student</span></h2>
+        <p>Email: <span id="email">student@example.com</span></p>
+        <h3>Enrolled Courses:</h3>
+        <ul>
+            <li>Web Development</li>
+            <li>Python for Beginners</li>
+        </ul>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Online Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function logout() {
+            alert("You have been logged out!");
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

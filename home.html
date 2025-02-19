@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Online Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+            <h2>Learn from the Best Instructors</h2>
+            <p>Our platform offers high-quality courses, expert instructors, and interactive content to help you achieve your learning goals.</p>
+            <button onclick="exploreCourses()">Explore Courses</button>
+        </section>
+
+        <section id="featured-courses">
+            <h2>Featured Courses</h2>
+            <div class="course">
+                <h3>Web Development</h3>
+                <p>Master HTML, CSS, JavaScript, and more to build stunning websites.</p>
+            </div>
+            <div class="course">
+                <h3>Data Science</h3>
+                <p>Learn Python, machine learning, and data visualization techniques.</p>
+            </div>
+            <div class="course">
+                <h3>Graphic Design</h3>
+                <p>Discover the fundamentals of design, Photoshop, and UI/UX principles.</p>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Start Your Learning Journey Today</h2>
+            <p>Sign up now and gain access to top-notch courses.</p>
+            <button onclick="redirectToSignUp()">Sign Up</button>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Online Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function exploreCourses() {
+            window.location.href = "courses.html";
+        }
+
+        function redirectToSignUp() {
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

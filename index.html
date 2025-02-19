@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="hone.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="video-container">
+            <h2>Featured Lesson</h2>
+            <video controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="quiz-section">
+            <h2>Quick Quiz</h2>
+            <p>What is the capital of France?</p>
+            <input type="text" id="quiz-answer" placeholder="Type your answer">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="quiz-result"></p>
+        </section>
+
+        <section id="announcements">
+            <h2>Latest Announcements</h2>
+            <marquee>🚀 New Courses Added! 🎓 Don't forget to complete your assignments! 📝</marquee>
+        </section>
+
+        <section id="student-testimonials">
+            <h2>What Our Students Say</h2>
+            <p>⭐⭐⭐⭐⭐ "This platform makes learning so easy!"</p>
+            <p>⭐⭐⭐⭐⭐ "I love the quizzes and video lessons!"</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Online Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
