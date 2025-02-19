@@ -103,6 +103,9 @@ The platform is built using **HTML, CSS, and JavaScript**, ensuring a **smooth, 
 ## **Conclusion**  
 The **Online Learning Platform** is designed to provide students with an **engaging and structured learning experience**. It integrates **seamless video streaming, interactive quizzes, and progress tracking** while maintaining a **modern UI and responsive design**.  
 
+
+**OUTPUT** : ![Image](https://github.com/user-attachments/assets/5c5b6cf5-1184-4117-8987-1f588ad03021)
+
 With future improvements like **AI-driven recommendations and live discussions**, this platform has the potential to **revolutionize online education** by making learning more **accessible, interactive, and efficient** for students worldwide. 🚀🔥  
 
 ---
